@@ -2,7 +2,7 @@
 
 `mac-hid-dump` is a small command-line app to output the __HID Report Descriptors__ of all connected HID devices.  Think of it as sort of a MacOS version of [`usbhid-dump`](https://github.com/DIGImend/usbhid-dump). It is designed to inspect HID devices for use with [`hidapi`](https://github.com/libusb/hidapi/), [`node-hid`](https://github.com/node-hid/node-hid), or similar HID libraries.  The output can be parsed directly by the [USB Descriptor Parser](https://eleccelerator.com/usbdescreqparser/).
 
-`mac-hid-dump` is based on the Mac-specific fucntions in [libusb/hidapi](https://github.com/libusb/hidapi/), a cross-platform library for communicating with HID devies.
+`mac-hid-dump` uses some of the Mac-specific code from [libusb/hidapi](https://github.com/libusb/hidapi/), a cross-platform library for communicating with HID devies.  It is not dependant on `hidapi` though.
 
 
 ## Usage:
