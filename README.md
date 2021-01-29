@@ -14,11 +14,6 @@ When run, its output looks like the below.
 ```
 tod@demo ~/Downloads/mac-hid-dump$ ./mac-hid-dump
 mac-hid-dump:
-05AC 0274: Apple Inc. - Apple Internal Keyboard / Trackpad
-DESCRIPTOR:
-  06  00  ff  09  03  a1  01  06  00  ff  09  03  15  00  26  ff
-  00  85  c0  96  6b  00  75  08  81  02  c0
-  (27 bytes)
 16C0 0486:  - Teensyduino RawHID Device
 DESCRIPTOR:
   06  c9  ff  09  04  a1  5c  75  08  15  00  26  ff  00  95  40
