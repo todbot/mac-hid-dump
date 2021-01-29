@@ -31,6 +31,7 @@ DESCRIPTOR:
   01  95  08  09  00  b2  02  01  75  08  85  02  95  3c  09  00
   b2  02  01  c0
   (36 bytes)
+tod@demo ~/Downloads/mac-hid-dump$
 
 ```
 
