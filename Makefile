@@ -10,5 +10,6 @@ LIBS=-framework IOKit -framework CoreFoundation
 mac-hid-dump: mac-hid-dump.c
 	$(CC) $(CFLAGS) mac-hid-dump.c -o mac-hid-dump $(LIBS)
 
+clean:
+	rm mac-hid-dump
 
-# gcc -o machiddump machiddump.c  -framework IOKit -framework CoreFoundation

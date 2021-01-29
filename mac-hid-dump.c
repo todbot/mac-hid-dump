@@ -109,6 +109,7 @@ int main(void)
 	CFSetGetValues(device_set, (const void **) device_array);
 
     //printf("got %ld devices\n", num_devices);
+    printf("mac-hid-dump:\n");
     
 	for (i = 0; i < num_devices; i++) {
 		IOHIDDeviceRef dev = device_array[i];
